@@ -52,7 +52,10 @@
 	}
 	.header-main.on {
         left: 0px !important;
-    }
+	}
+	.header-main-on{
+		left: 0px !important;
+	}
 	#about:target .pt-about,
 	#resume:target .pt-resume,
 	#portfolio:target .pt-portfolio,

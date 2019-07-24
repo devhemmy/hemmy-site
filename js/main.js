@@ -30,7 +30,14 @@ Table of Content
 ----------------------------------- */
 
 $(window).on('load', function() {
-		
+    $('.header-toggle').on('click', function() {
+        $('.header-main').toggleClass('on');
+    });
+    $('.header-main ul li a').on('click',function() {
+        if($('.header-main.on').length) {
+            $('.header-main').removeClass('on');
+        }
+    });
 	/* -----------------------------------
 				1. Preloader
 	----------------------------------- */
